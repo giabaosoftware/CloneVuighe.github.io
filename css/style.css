@@ -1,0 +1,261 @@
+/* Header Wide */
+
+header{
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid rgb(209, 209, 209);
+    z-index: 2;
+    background-color: #fff;
+    top: 0px;
+}
+
+.navbar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.logo{
+    height: 50px;
+    width: auto;
+}
+
+.item__link{
+    text-decoration: none;
+    padding: 5px 8px;
+    border: 1px solid rgb(182, 182, 182);
+    color: black;
+    margin: 5px;
+}
+
+.menu__searchbar{
+    border: 1px solid  rgb(182, 182, 182);
+    border-radius: 2px;
+    margin-left: 12px;
+}
+
+.searchbar__input{
+    border: none;
+    padding-left: 4px;    
+}
+
+.searchbar__icon{
+    padding: 5px;
+    display: inline-block;
+    color:  rgb(124, 124, 124);
+}
+
+.bi-brightness-high, .bi-person{
+   font-size: 25px;
+   padding: 7.5px;
+   border-radius: 100%;
+   box-shadow: 0px 0px 10px rgb(158, 158, 158);
+}
+
+.bi-brightness-high{
+    background-color: rgb(236, 236, 236);
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color;
+    transition-timing-function: ease-out;
+    transition-duration: .2s;
+}
+
+.bi-brightness-high:hover{
+    background-color: rgb(69, 29, 214);
+    color: #fff;
+}
+
+.bi-person{
+    background-color: rgb(158, 158, 158);
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Main Wide */
+.section-heading{
+    font-size: 24px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.bi-chevron-right::before {
+    content: "\f285";
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.movie, .comic, .rank{
+    position: relative;
+}
+
+.movie-action-hero{
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+
+.movie-description-hero{
+    position: absolute;
+    bottom: 2px;
+    left: 0px;
+    padding: 10px;
+    width: 100%;
+    color: #fff;
+    background-image: linear-gradient(transparent,rgba(0,0,0,.1),rgba(0,0,0,.3),rgba(0,0,0,.5),rgba(0,0,0,.7),rgba(0,0,0,.9));
+}
+
+
+.movie-action-hero .bi-play-fill{
+    background-color: rgba(0, 0, 0, 0.767);
+    padding: 10px;
+    font-size: 40px;
+    color: #fff;
+    border-radius: 100%;
+    box-shadow: 0 0 10px #fff;    
+}
+
+.movie-meta-hero, .movie-title-hero{
+    margin-left: 80px;
+    margin-bottom: 5px;
+}
+
+
+.movie-action, .comic-action{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+.movie-action .bi-play-fill{
+    background-color: rgba(0, 0, 0, 0.767);
+    padding: 10px;
+    font-size: 30px;
+    color: #fff;
+    border-radius: 100%;
+    box-shadow: 0 0 10px #fff;    
+}
+
+.movie-description, .comic-description{
+    position: absolute;
+    bottom: 2px;
+    left: 0px;
+    padding: 10px;
+    width: 100%;
+    color: #fff;
+    background-image: linear-gradient(transparent,rgba(0,0,0,.1),rgba(0,0,0,.3),rgba(0,0,0,.5),rgba(0,0,0,.7),rgba(0,0,0,.9));
+}
+.row{
+    margin-bottom: 4px;
+}
+.movie-title, .comic-title{
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 2px;
+}
+
+.movie-view, .movie-chapter{
+    font-size: 12px;
+}
+
+section{
+    margin: 30px 0;
+}
+
+.news-chapter{
+    font-size: 14px;
+}
+
+.news-thumbnail img:hover{
+    opacity: 0.8;
+}
+
+.comic-chapter{
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: rgba(0, 0, 0, 0.705);
+    font-size: 12px;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+main{
+    position: relative;
+    top: 71px;
+}
+
+.rank-title{
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 2px;
+}
+
+.rank-description{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    width: 100%;
+    color: #fff;
+    background: linear-gradient(
+        -180deg,rgba(244,67,54,.9),rgba(244,67,54,.2));
+}
+
+.rank-action{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.ranking{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.btn{
+    background-color: red;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 0.7;
+}
+.view-more{
+    text-align: center;
+}
+
+.btn-control{
+    background-color: red;
+    border: none;
+    color: #fff;
+    padding: 15px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 100%;
+    position: fixed;
+    z-index: 3;
+    bottom: 20px;
+    right: 20px;
+    height: 55px;
+}
+.bi-record-circle-fill{
+    font-size: 25px;
+}
+img{
+    cursor: pointer;
+}
+/* Footer Wide */
+footer{
+    position: relative;
+    top: 71px;
+}
+
+.footer-description{
+    color: rgb(192, 192, 192);
+}
