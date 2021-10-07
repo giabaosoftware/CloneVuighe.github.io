@@ -135,7 +135,7 @@ header{
     font-size: 30px;
     color: #fff;
     border-radius: 100%;
-    box-shadow: 0 0 10px #fff;    
+    box-shadow: 0 0 10px #fff;
 }
 
 .movie-description, .comic-description{
@@ -250,10 +250,12 @@ main{
 img{
     cursor: pointer;
 }
+
 /* Footer Wide */
 footer{
     position: relative;
     top: 71px;
+    padding-bottom: 10px;
 }
 
 .footer-description{
